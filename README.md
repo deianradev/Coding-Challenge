@@ -19,7 +19,7 @@ Follow the steps below to complete the challenge.
 
 8. On each orange button of the cards, a user can click on the button and toggle between the text in the mockup and "Hide [Giving Plan/Charity]" with the icon switched to the eye-slash icon.
 
-9. Once you are finished please open a pull request to the main repo so that we can go over your work!
+9. Once you are finished please open a pull request so that we can go over your work!
 
 **_Bonus Points_** 
 
@@ -29,4 +29,4 @@ We encourage the use of Vanilla JavaScript but feel free to use any package/tool
 
 A copy of these instructions can be found in the **index.html** file, as well.
 
-If you have ANY trouble, feel free to open an issue in the main repo and we will be happy to assist.
+If you have ANY trouble, feel free to open an issue and we will be happy to assist.
