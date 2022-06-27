@@ -52,9 +52,58 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>[Add Your Name Here] - Coding-Challenge</title>
+  <title>Deian Radev - Coding-Challenge</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/css-reset.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body></body>
+<body>
+  <header class="header">
+    <div class="header-container">
+      <h1 class="header__title">Open Wallet Project</h1>
+      <h2 class="header__subtitle">Welcome Back John</h2>
+      <p class="header__message">You've donated $2,251 so far. Great job!</p>
+    </div>
+  </header>
+  <div class="container">
+    <div class="card">
+      <div class="card__section">
+        <img src="./assets/imgs/pie.png" alt="" class="card__section-image">
+        <div class="card__section-text">
+          <h3 class="card__section-text-title">$150/mo</h3>
+          <p>Next giving plan disbursement occurs on 08/30/20.</p>
+        </div>
+      </div>
+      <button class="button card__button" id="monthButton"></button>
+    </div>
+
+    <div class="card">
+      <div class="card__section card__section--no-button">
+        <img src="./assets/imgs/calendar.png" alt="" class="card__section-image">
+        <div class="card__section-text">
+          <h3 class="card__section-text-title">Woot!</h3>
+          <p>You've donated the last 15 months in a row! Keep it up!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card__section">
+        <img src="./assets/imgs/npt-logo.png" alt="" class="card__section-image">
+        <div class="card__section-text card__section-text-park">
+          <h3 class="card__section-text-title">New!</h3>
+          <p>National Park Trust has been added</p>
+        </div>
+      </div>
+      <button class="button card__button" id="parkButton"></button>
+    </div>
+  </div>
+  <!-- scripts at the end  -->
+  <script src="https://kit.fontawesome.com/78341e28be.js" crossorigin="anonymous"></script>
+  <script src="./script/script.js"></script>
+</body>
 
 </html>
